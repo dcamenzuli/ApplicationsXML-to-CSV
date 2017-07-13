@@ -169,4 +169,4 @@ for($i=1; $i -lt $xmlSize; ++$i)
 
 # Prompt for output file name and then export the output array to a CSV
 $outputName = Read-Host -Prompt 'Enter name for output CSV file'
-$fileOutput | Export-CSV $outputName
+$fileOutput | Export-CSV $outputName -NoTypeInformation
